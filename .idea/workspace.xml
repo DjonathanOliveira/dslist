@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b9a6031-843e-4d26-bfab-d773ce71bc5c" name="Changes" comment="First commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/devsuperior/dslist/entities/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application-test.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/import.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/devsuperior/dslist/DslistApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/devsuperior/dslist/DslistApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/devsuperior/dslist/entities/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/devsuperior/dslist/entities/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/devsuperior/dslist/entities/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/devsuperior/dslist/entities/Game.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
