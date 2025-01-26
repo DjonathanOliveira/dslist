@@ -2,6 +2,8 @@ package com.devsuperior.dslist.dto;
 
 import com.devsuperior.dslist.entities.Game;
 
+
+//O DTO serve para customizar a representação dos dados que serão exibidos pela API.
 public class GameDTO {
 
     private Long id;

@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b9a6031-843e-4d26-bfab-d773ce71bc5c" name="Changes" comment="First commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/devsuperior/dslist/controllers/GameController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/devsuperior/dslist/dto/GameDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/devsuperior/dslist/repositories/GameRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/devsuperior/dslist/services/GameService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/devsuperior/dslist/entities/Belonging.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/devsuperior/dslist/entities/BelongingPK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/devsuperior/dslist/entities/GameList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/devsuperior/dslist/dto/GameDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/devsuperior/dslist/dto/GameDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/devsuperior/dslist/services/GameService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/devsuperior/dslist/services/GameService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,12 +35,12 @@
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {}
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/DjonathanOliveira/dslist.git",
-    "accountId": "6b541780-40b9-4e53-9531-dd9a3934b267"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/DjonathanOliveira/dslist.git&quot;,
+    &quot;accountId&quot;: &quot;6b541780-40b9-4e53-9531-dd9a3934b267&quot;
   }
-}]]></component>
+}</component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -64,19 +65,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.DslistApplication.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "com.codeium.enabled": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Projetos/dslist/dslist",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "actions.on.save"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.DslistApplication.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;com.codeium.enabled&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Projetos/dslist/dslist&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="DslistApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.devsuperior.dslist.DslistApplication" />
