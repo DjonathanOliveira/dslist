@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b9a6031-843e-4d26-bfab-d773ce71bc5c" name="Changes" comment="First commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/devsuperior/dslist/dto/GameMinDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/devsuperior/dslist/exceptions/GameNotFoundException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/import.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/import.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/devsuperior/dslist/controllers/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/devsuperior/dslist/controllers/GameController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/devsuperior/dslist/dto/GameDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/devsuperior/dslist/dto/GameDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/devsuperior/dslist/services/GameService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/devsuperior/dslist/services/GameService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/devsuperior/dslist/controllers/GameController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/devsuperior/dslist/controllers/GameController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/devsuperior/dslist/dto/GameDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/devsuperior/dslist/dto/GameDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/devsuperior/dslist/services/GameService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/devsuperior/dslist/services/GameService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +25,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="Exception" />
       </list>
     </option>
   </component>
@@ -74,6 +82,11 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.devsuperior.dslist.dto" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="DslistApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.devsuperior.dslist.DslistApplication" />
