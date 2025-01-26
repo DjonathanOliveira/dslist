@@ -4,7 +4,7 @@ import com.devsuperior.dslist.entities.Game;
 import org.springframework.beans.BeanUtils;
 
 
-//O DTO serve para customizar a representação dos dados que serão exibidos pela API.
+//The DTO is used to customize the representation of the data that will be displayed by the API.
 public class GameDTO {
 
     private Long id;
