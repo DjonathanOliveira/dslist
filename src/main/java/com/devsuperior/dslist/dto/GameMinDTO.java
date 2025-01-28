@@ -1,6 +1,7 @@
 package com.devsuperior.dslist.dto;
 
 import com.devsuperior.dslist.entities.Game;
+import org.jetbrains.annotations.NotNull;
 
 
 //The DTO is used to customize the representation of the data that will be displayed by the API.
@@ -16,7 +17,7 @@ public class GameMinDTO {
     public GameMinDTO() {
     }
 
-    public GameMinDTO(Game entity) {
+    public GameMinDTO(@NotNull Game entity) {
         this.id = entity.getId();
         this.title = entity.getTitle();
         this.year = entity.getYear();

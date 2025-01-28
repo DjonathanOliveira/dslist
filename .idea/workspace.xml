@@ -5,12 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b9a6031-843e-4d26-bfab-d773ce71bc5c" name="Changes" comment="First commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/devsuperior/dslist/exceptions/GameNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/devsuperior/dslist/controllers/GameListController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/devsuperior/dslist/dto/GameListDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/devsuperior/dslist/repositories/GameListRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/devsuperior/dslist/services/GameListService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/devsuperior/dslist/controllers/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/devsuperior/dslist/controllers/GameController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/devsuperior/dslist/dto/GameMinDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/devsuperior/dslist/dto/GameMinDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/devsuperior/dslist/entities/GameList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/devsuperior/dslist/entities/GameList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/devsuperior/dslist/services/GameService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/devsuperior/dslist/services/GameService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/devsuperior/dslist/controllers/GameController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/devsuperior/dslist/controllers/GameController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/devsuperior/dslist/services/GameService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/devsuperior/dslist/services/GameService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/devsuperior/dslist/dto/GameMinDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/devsuperior/dslist/dto/GameMinDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/devsuperior/dslist/entities/GameList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/devsuperior/dslist/entities/GameList.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,9 +27,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
-        <option value="Class" />
         <option value="Exception" />
+        <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -42,6 +49,9 @@
     &quot;accountId&quot;: &quot;6b541780-40b9-4e53-9531-dd9a3934b267&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/devsuperior/dslist/services/GameListService.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -81,6 +91,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.devsuperior.dslist.controllers" />
+      <recent name="com.devsuperior.dslist.services" />
       <recent name="com.devsuperior.dslist.dto" />
     </key>
   </component>

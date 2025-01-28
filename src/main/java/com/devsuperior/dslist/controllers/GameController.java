@@ -30,7 +30,6 @@ public class GameController {
         return new ResponseEntity<>(result, HttpStatus.OK);
     }
 
-    
     @ExceptionHandler(GameNotFoundException.class)
     public ResponseEntity<String> handleGameNotFoundException(GameNotFoundException e) {
         return new ResponseEntity<>(e.getMessage(), HttpStatus.NOT_FOUND);

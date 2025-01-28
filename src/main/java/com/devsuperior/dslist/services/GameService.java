@@ -34,6 +34,7 @@ public class GameService {
         Game result = gameRepository.findById(gameId).orElseThrow(() -> new GameNotFoundException("Game not found with id " + gameId));
         GameDTO dto = new GameDTO(result);
         return dto;
+//      return new GameDTO(result);
     }
 
 }
